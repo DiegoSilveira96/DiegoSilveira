@@ -1,0 +1,1024 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Title  -->
+    <title>Portfolio - Diêgo Silveira</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon(2).ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="sonar-load"></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Grids -->
+    <div class="grids d-flex justify-content-between">
+        <div class="grid1"></div>
+        <div class="grid2"></div>
+        <div class="grid3"></div>
+        <div class="grid4"></div>
+        <div class="grid5"></div>
+        <div class="grid6"></div>
+        <div class="grid7"></div>
+        <div class="grid8"></div>
+        <div class="grid9"></div>
+    </div>
+
+    <!-- ***** Main Menu Area Start ***** -->
+    <div class="mainMenu d-flex align-items-center justify-content-between">
+        <!-- Close Icon -->
+        <div class="closeIcon">
+            <i class="ti-close" aria-hidden="true"></i>
+        </div>
+        <!-- Logo Area -->
+        <div class="logo-area">
+            <a href="index.html">Portfolio</a>
+        </div>
+        <!-- Nav -->
+        <div class="sonarNav">
+            <nav>
+                <ul>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <!--
+                        <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                        -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="certifications.html">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link" href="elements.html">Elements</a>
+                    </li>
+                        -->
+                </ul>
+            </nav>
+        </div>
+        <!-- Copwrite Text -->
+        <div class="copywrite-text">
+            <p>
+                <br/>
+                <br/>
+            </p>
+        </div>
+    </div>
+    <!-- ***** Main Menu Area End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="menu-area d-flex justify-content-between">
+                        <!-- Logo Area  -->
+                        <div class="logo-area">
+                            <a href="index.html">Diêgo Lima Silveira</a>
+                        </div>
+
+                        <div class="menu-content-area d-flex align-items-center">
+                            <!-- Header Social Area -->
+                            <div class="header-social-area d-flex align-items-center">
+                                <a href="https://www.facebook.com/diegosilveiraart" data-toggle="tooltip" data-placement="bottom" title="Facebook"><img src="img/core-img/facebook.png" alt="" width="38x" height="38px"><i aria-hidden="true"></i></a>
+                                <a href="https://diegosilveira.artstation.com/" data-toggle="tooltip" data-placement="bottom" title="ArtStation"><img src="img/core-img/artstation.png" alt="" width="38x" height="38px"><i aria-hidden="true"></i></a>
+                                <a href="https://www.deviantart.com/diegosilveira96" data-toggle="tooltip" data-placement="bottom" title="DeviantArt"><img src="img/core-img/deviantart.png" alt="" width="38x" height="38px"><i aria-hidden="true"></i></a>
+
+                                
+                            </div>
+                            <!-- Menu Icon -->
+                            <span class="navbar-toggler-icon" id="menuIcon"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <!-- ***** Hero Area Start ***** -->
+    <div class="hero-area d-flex align-items-center">
+        <!-- Hero Thumbnail -->
+        <div class="hero-thumbnail equalize bg-img" style="background-image: url(img/bg-img/portfolio.jpg);"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content equalize">
+            <div class="container-fluid h-100">
+                <div class="row h-100 align-items-center justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="line"></div>
+                        <h2>Take a look at my Portfolio</h2>
+                        <p>You can choose the artwork categorie to look at. To do this, use the buttons below.</p>
+                        <a href="contact.html" class="btn sonar-btn white-btn">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Menu -->
+        <div class="sonar-portfolio-menu">
+            <div class="text-center portfolio-menu">
+
+                <button class="btn btnselected" data-filter=".bewdrawing">B&W drawing</button>
+                <button class="btn" data-filter=".colorization">Colorization</button>
+                <button class="btn" data-filter=".peopledrawing">People drawing</button>
+                <button class="btn" data-filter=".vectorart">Vector art</button>
+                <button class="btn" data-filter=".webdesign">Web design</button>
+                <button class="btn" data-filter=".others">Others</button>
+                <script>
+                	window.onload = function () {
+    				$('button.btnselected').trigger('click');
+    			}
+    			</script>
+
+            </div>
+        </div>
+    </div>
+    <!-- ***** Hero Area End ***** -->
+    <!-- ****** Gallery Area Start ****** -->
+    <section class="sonar-projects-area text-center" id="projects">
+        <div class="container-fluid text-center">
+            <div class="row sonar-portfolio text-center">
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="300ms">
+                    <a class="gallery-img" href="img/portfolio-img/1.jpg"><img src="img/portfolio-img/1.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        May 15, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="500ms">
+                    <a class="gallery-img" href="img/portfolio-img/2.jpg"><img src="img/portfolio-img/2.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        May 15, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="700ms">
+                    <a class="gallery-img" href="img/portfolio-img/3.jpg"><img src="img/portfolio-img/3.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        March 23, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/4.jpg"><img src="img/portfolio-img/4.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        March 23, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="300ms">
+                    <a class="gallery-img" href="img/portfolio-img/5.jpg"><img src="img/portfolio-img/5.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        March 30, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="500ms">
+                    <a class="gallery-img" href="img/portfolio-img/6.jpg"><img src="img/portfolio-img/6.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        March 30, 2020.
+                        <br />
+                        <br /> 
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="700ms">
+                    <a class="gallery-img" href="img/portfolio-img/7.jpg"><img src="img/portfolio-img/7.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        March 30, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/8.jpg"><img src="img/portfolio-img/8.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for Webtoon/Manhwa.</h4>
+                        March 30, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/9.jpg"><img src="img/portfolio-img/9.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for comic book history.</h4>
+                        April 10, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/10.jpg"><img src="img/portfolio-img/10.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for comic book history.</h4>
+                        April 10, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/11.jpg"><img src="img/portfolio-img/11.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, for my Webtoon/Manhwa: "Orange Br".<br /><br /></h4>
+                        May 15, 2015.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/12.jpg"><img src="img/portfolio-img/12.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actress Scarlett Johansson".<br /><br /></h4>
+                        Jan. 24, 2014.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/13.jpg"><img src="img/portfolio-img/13.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actor Jared Leto".</h4>
+                        December 30, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/14.jpg"><img src="img/portfolio-img/14.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actor Jared Leto".</h4>
+                        December 30, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/15.jpg"><img src="img/portfolio-img/15.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actor Jared Leto".</h4>
+                        December 28, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/16.jpg"><img src="img/portfolio-img/16.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actor Jared Leto".</h4>
+                        December 28, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/17.jpg"><img src="img/portfolio-img/17.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.<br /><br /></h4>
+                        December 28, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/18.jpg"><img src="img/portfolio-img/18.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation, for my Webtoon/Manhwa: "Orange Br".</h4>
+                        March 30, 2014.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/19.jpg"><img src="img/portfolio-img/19.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.<br /><br /></h4>
+                        December 23, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/20.jpg"><img src="img/portfolio-img/20.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.<br /><br /></h4>
+                        December 23, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/21.jpg"><img src="img/portfolio-img/21.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 23, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/22.jpg"><img src="img/portfolio-img/22.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 31, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/23.jpg"><img src="img/portfolio-img/23.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 23, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/24.jpg"><img src="img/portfolio-img/24.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 30, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/25.jpg"><img src="img/portfolio-img/25.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 25, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/26.jpg"><img src="img/portfolio-img/26.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 23, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/27.jpg"><img src="img/portfolio-img/27.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Non-profit drawing.</h4>
+                        December 26, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item bewdrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/28.jpg"><img src="img/portfolio-img/28.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity singer-songwriter and musician Kurt Cobain".</h4>
+                        December 23, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <!-- Single gallery Item -->
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 1.jpg"><img src="img/portfolio-img/colorization 1.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, for my Webtoon/Manhwa: "Orange Br".co</h4>
+                        December 11, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 2.jpg"><img src="img/portfolio-img/colorization 2.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Scenario creation, for my Webtoon/Manhwa: "Orange Br".</h4>
+                        December 11, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 3.jpg"><img src="img/portfolio-img/colorization 3.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, for my Webtoon/Manhwa: "Orange Br".</h4>
+                        July 24, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 4.jpg"><img src="img/portfolio-img/colorization 4.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, for my Webtoon/Manhwa: "Orange Br".</h4>
+                        July 24, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 5.jpg"><img src="img/portfolio-img/colorization 5.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation, for my Webtoon/Manhwa: "Orange Br".<br /><br /></h4>
+                        November 14, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 6.jpg"><img src="img/portfolio-img/colorization 6.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation, for my Webtoon/Manhwa: "Orange Br".<br /><br /></h4>
+                        November 14, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 7.jpg"><img src="img/portfolio-img/colorization 7.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My programming teacher Carlos Andrew".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 8.jpg"><img src="img/portfolio-img/colorization 8.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My programming teacher Carlos Andrew".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 9.jpg"><img src="img/portfolio-img/colorization 9.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.<br /><br /></h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 10.jpg"><img src="img/portfolio-img/colorization 10.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.<br /><br /></h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 11.jpg"><img src="img/portfolio-img/colorization 11.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for candidates mascot competition of the Information Systems course.</h4>
+                        July 24, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 12.jpg"><img src="img/portfolio-img/colorization 12.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for candidates mascot competition of the Information Systems course.</h4>
+                        July 24, 2015
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 13.jpg"><img src="img/portfolio-img/colorization 13.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My network and security teacher Marcelo Schmidt".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item colorization wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/colorization 14.jpg"><img src="img/portfolio-img/colorization 14.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My network and security teacher Marcelo Schmidt".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 1.jpg"><img src="img/portfolio-img/people drawing 1.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My programming teacher Carlos Andrew".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 2.jpg"><img src="img/portfolio-img/people drawing 2.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My programming teacher Carlos Andrew".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 3.jpg"><img src="img/portfolio-img/people drawing 3.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My network and security teacher Marcelo Schmidt".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 4.jpg"><img src="img/portfolio-img/people drawing 4.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: "My network and security teacher Marcelo Schmidt".</h4>
+                        May 1, 2017.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 5.jpg"><img src="img/portfolio-img/people drawing 5.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actress Scarlett Johansson".</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 6.jpg"><img src="img/portfolio-img/people drawing 6.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actress Scarlett Johansson".</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 7.jpg"><img src="img/portfolio-img/people drawing 7.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 8.jpg"><img src="img/portfolio-img/people drawing 8.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 9.jpg"><img src="img/portfolio-img/people drawing 9.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 10.jpg"><img src="img/portfolio-img/people drawing 10.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 11.jpg"><img src="img/portfolio-img/people drawing 11.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 12.jpg"><img src="img/portfolio-img/people drawing 12.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation: for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 13.jpg"><img src="img/portfolio-img/people drawing 13.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actress Scarlett Johansson".</h4>
+                        January 24, 2014.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 14.jpg"><img src="img/portfolio-img/people drawing 14.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "celebrity actress Scarlett Johansson".</h4>
+                        January 24, 2014.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 15.png"><img src="img/portfolio-img/people drawing 15.png" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "famous green day rock band".</h4>
+                        September 19, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 16.jpg"><img src="img/portfolio-img/people drawing 16.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Artwork creation: "famous green day rock band".</h4>
+                        September 19, 2013.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 17.jpg"><img src="img/portfolio-img/people drawing 17.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for comic book history.</h4>
+                        April 10, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 18.jpg"><img src="img/portfolio-img/people drawing 18.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for comic book history.</h4>
+                        April 10, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 19.jpg"><img src="img/portfolio-img/people drawing 19.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for comic book history.</h4>
+                        April 10, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item peopledrawing wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/people drawing 20.jpg"><img src="img/portfolio-img/people drawing 20.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Character creation, in order to participate to an artists selection for comic book history.</h4>
+                        April 10, 2020.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item vectorart wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/vector art 1.jpg"><img src="img/portfolio-img/vector art 1.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Gas station logo.<br/><br/></h4>
+                        December 12, 2016..
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item vectorart wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/vector art 2.jpg"><img src="img/portfolio-img/vector art 2.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item vectorart wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/vector art 3.jpg"><img src="img/portfolio-img/vector art 3.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item vectorart wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/vector art 4.jpg"><img src="img/portfolio-img/vector art 4.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item vectorart wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/vector art 5.jpg"><img src="img/portfolio-img/vector art 5.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Illustration creation for a commercial facade.</h4>
+                        May 2, 2018.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item vectorart wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/vector art 7.jpg"><img src="img/portfolio-img/vector art 7.jpg" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Monogram for medical college graduates.</h4>
+                        August 4, 2017
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="single_gallery_item col-12 webdesign" data-wow-delay="900ms" align="center">
+                    <a class="gallery-img" href="img/portfolio-img/webdesign 1.jpg"><img src="img/portfolio-img/webdesign 1.jpg" alt="" class="img-portfoliowebdesign portfolio-item"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Webdesign for Japanese culture website (manga and anime).</h4>
+                        April 2011.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="single_gallery_item col-12 webdesign" data-wow-delay="900ms" align="center">
+                    <a class="gallery-img" href="img/portfolio-img/webdesign 2.jpg"><img src="img/portfolio-img/webdesign 2.jpg" alt="" class="img-portfoliowebdesign portfolio-item"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Webdesign done in order to study web programming.</h4>
+                        May 2016.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="single_gallery_item col-12 webdesign" data-wow-delay="900ms" align="center">
+                    <a class="gallery-img" href="img/portfolio-img/webdesign 3.jpg"><img src="img/portfolio-img/webdesign 3.jpg" alt="" class="img-portfoliowebdesign portfolio-item"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>Webdesign for Japanese culture website (manga and anime).</h4>
+                        April 2011.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item others wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/others 1.png"><img src="img/portfolio-img/others 1.png" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>(Copied drawing) Funny version of Leonardo da Vinci's masterpiece.</h4>
+                        November 20, 2013
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 single_gallery_item others wow fadeInUpBig" data-wow-delay="900ms">
+                    <a class="gallery-img" href="img/portfolio-img/others 2.png"><img src="img/portfolio-img/others 2.png" alt="" class="img-portfolio portfolio-item portfolio-item-gallery"></a>
+                    <!-- Gallery Content -->
+                    <div class="gallery-content" align="center">
+                        <h4>(Copied drawing) Funny version of Leonardo da Vinci's masterpiece.</h4>
+                        November 20, 2013
+                        <br />
+                        <br />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ****** Gallery Area End ****** -->
+    <!-- ***** Footer Area Start ***** -->
+
+
+
+
+
+    <!-- ***** Footer Area End ***** -->
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
